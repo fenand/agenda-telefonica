@@ -30,4 +30,13 @@ public class agendaTelefonica
 
     }
 
+    /**
+     * metodo para imprimir todas las claves 
+     */
+    // el metodo utiliza un meodo set que devuelve un conjunto de claves Set<K,V> devuelve la K que es la clave solo seria asi solo este metodo a utilizas Set<K>
+    public void printAllName(){
+    
+        System.out.println(agendaDeTelefonos.keySet());
+    
+    }
 }
